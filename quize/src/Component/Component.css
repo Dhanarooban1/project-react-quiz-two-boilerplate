@@ -1,0 +1,166 @@
+body{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+ background-color: #46388cff;
+}
+
+#Elements{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#button{
+ background-color: greenyellow;
+ border-radius: 100px;
+ height: 5vh;
+width: 10vw;
+}
+
+#QuestionBox{
+   width: 80vw;
+  height: 80vh;
+  background-color: white;
+}
+
+#title{
+font-weight: 500;
+font-size: x-large;
+}
+
+.TopElements{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 15vh; 
+  color: black;
+}
+
+.QuestionNumber{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: auto;
+  width: 100px;
+}
+
+#Questions{
+  font-size: medium;
+  margin-top: auto;
+  /* border: 1px solid burlywood; */
+}
+
+#Option{
+  height: 70%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto; /* Two rows */
+  grid-template-areas:"top top" "bottom bottom ";
+  align-items: center;
+  justify-items: center; 
+  /* border: 1px solid green; */
+}
+
+
+
+#option1, #option2 , #option3 , #option4 {
+  background-color:  #1da1f2ff;
+  border-radius: 100px;
+  color: white;
+height: 6vh;
+width: 30vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 1px solid black;
+}
+
+#Question_Button{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+  width: 100%;
+  height: 5vh;
+  /* border: 1px solid red; */
+}
+
+#Previous_Button ,#Next_Button ,#Quit_Button{
+  border-radius: 0; 
+
+}
+
+#Previous_Button{
+  background-color: #1da1f2ff
+}
+#Next_Button{
+  background-color: green;
+}
+
+#Quit_Button{
+  background-color: red;
+}
+
+
+/* ResultComponent */
+h1{
+  color: green;
+  text-align: center;
+}
+
+.Result_Top_text{
+  text-align: center;
+}
+#DisplayFeedback{
+  color: black;
+ 
+}
+h2{
+  color: blue;
+}
+
+#ResultBox{
+  background-color: white;
+  width: 60vw;
+  height: 60vh;
+
+}
+
+#QuestionFeedback{
+display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+}
+
+.q{
+display: flex;
+ flex-direction: row;
+ color: black;
+ justify-content: space-between;
+ padding: 1%;
+}
+
+#buttons{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1%;
+}
+
+#playAgainBtn , #backBtn {
+  border-radius: 0%;
+  width: 10vw;
+   height: 5vh;
+   padding: 1%;
+   display: flex;
+   justify-content:center ;
+   align-items: center;
+}
