@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Quiz from './Component/Quiz';
 import ResultComponent from "./Component/ResultComponent";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate , BrowserRouter } from "react-router-dom";
 import HomeComponent from './Component/HomeComponent';
 import quizQuestion from "./Component/resources/quizQuestion.json";
 

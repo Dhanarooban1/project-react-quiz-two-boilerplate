@@ -12,9 +12,6 @@ export default class HomeComponent extends Component {
   }
  }
 
-
-
- 
   render() {
     return (
     <div id="Elements">

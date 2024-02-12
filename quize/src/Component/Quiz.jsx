@@ -89,7 +89,8 @@ nextQuestion = () => {
            <button id="Previous_Button" onClick={this.previousQuestion}>Previous</button>
            <button id="Next_Button" onClick={this.nextQuestion}>Next</button>
            <button id='Quit_Button'> <Link to='/result'>Quit</Link></button>
-         </div> 
+           <button id='F_Button'> <Link to='/result'>Finish</Link></button>
+         </div>   
        </div> 
     </>
    )
